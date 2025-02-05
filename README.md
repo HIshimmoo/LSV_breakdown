@@ -3,10 +3,11 @@
 ## How to Use This File
 
 ### Prerequisites
-Ensure you have Python installed along with the necessary libraries:
+- Ensure you have Python installed along with the necessary libraries:
 ```bash
 pip install numpy pandas matplotlib scipy tkinter
 ```
+- A .xlsx file with LSV data. The first column with Votage in unit V. The second column with Current density in unit A cm-2.
 
 ### Running the Program
 1. Open the Python script in an environment that supports Tkinter (e.g., IDLE, Anaconda, or a standard Python environment).

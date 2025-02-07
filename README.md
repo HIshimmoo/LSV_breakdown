@@ -7,16 +7,18 @@
 ```bash
 pip install numpy pandas matplotlib scipy tkinter
 ```
-- A .xlsx file with LSV data.
+- A .xlsx or .txt file with LSV data.
    - The first column with Votage in unit V.
    - The second column with Current density in unit A cm-2.
 
 ### Running the Program
 1. Open the Python script in an environment that supports Tkinter (e.g., IDLE, Anaconda, or a standard Python environment).
-2. Run the script: Vbreak.py
+2. Run the script: Vbreak001.py
 3. A GUI window will appear. Follow these steps:
    - **Load Data**: Click the “Browse” button to select your LSV data file. The file should have suffix .xslx.
-   - **Set Parameters**: Temperature, RCL and HFR are needed before analysis. **RCL is not Rct that can be read from EIS semicircle.** If you don't need to analyze the RCL, set it to 0. If you want know how to get RCL, see "Notes" below. 
+   - **Set Parameters**: Temperature, RCL and HFR are needed before analysis.
+   - **Reference Electrode & pH**: Use the dropdown menu to pick the reference electrode (RHE, Ag/AgCl, SCE, HgO), and set the pH. If you choose RHE, no offset is added; otherwise, the code converts your data to the RHE scale automatically (applying the offset + 0.0592 * pH).
+   - **Tafel Fit Range**: By default, the code uses 0.005–0.1 A/cm² to find the Tafel slope. You can now edit these fields to use any current-density window (e.g., 0.01–0.5 A/cm²).
    - **Overpotential Analysis**: Click “Fit&Plot” button. The program will process the data and plot overpotential components step by step.
    - **Data Export**: Click "Export Data" to save an Excel file with two sheets that include all data used for plotting.
 

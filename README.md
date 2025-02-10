@@ -5,7 +5,7 @@
 ### Prerequisites
 - Ensure you have Python installed along with the necessary libraries:
 ```bash
-pip install numpy pandas matplotlib scipy tkinter
+pip install numpy pandas matplotlib scipy tkinter openpyxl
 ```
 - A .xlsx or .txt file with LSV data.
    - The first column with Votage in unit V.

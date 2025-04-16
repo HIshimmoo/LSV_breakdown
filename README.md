@@ -3,10 +3,7 @@
 ## How to Use This File
 
 ### Prerequisites
-- Ensure you have Python installed along with the necessary libraries:
-```bash
-pip install numpy pandas matplotlib scipy tkinter openpyxl
-```
+
 - A .xlsx or .txt file with LSV data.
    - The first column with Votage in unit V.
    - The second column with Current density in unit A cm-2.

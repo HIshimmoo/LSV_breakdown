@@ -31,7 +31,7 @@
 - **Best Fit Selection**: The data set with the smallest SE% is chosen.
 
 ---
-### Notes
+### Notes and references
 - For detailed explanation and formula, see pdf file "Intro".
 - The Tafel fitting method is inspired by 10.1021/acs.jpcc.9b06820. I am not sure if it's accurate or if the author truly means it. However, this "expanding window size" idea does help to find a relative convincing Tafel slope.
 - Recommended RCL fitting method: https://github.com/NREL/OSIF.

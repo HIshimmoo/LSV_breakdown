@@ -29,6 +29,7 @@
 - **Multi-Level Fitting**: Fit the Tafel equation for each data set three times using subsets of 20, 40 and 60mV
 - **Statistical Analysis**: Evaluate the standard error percentage (SE%) for b and i₀.
 - **Best Fit Selection**: The data set with the smallest SE% is chosen.
+- Iteratively fits the Tafel slope while removing the influence of the catalyst-layer (R_CL) overpotential. In the first iteration only the ohmic (HFR) drop is subtracted.
 
 ---
 ### Notes and references

@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Refactored LSV Overpotential Analysis GUI
-- Cleaner ttk UI with sensible layout and sizes
-- Removed duplicate frames and noisy comments
-- Fixed export sheet labels to reflect "stacked" curves
-- Kept original math and fitting logic; consolidated helpers
-"""
-
 import os
 import ctypes
 import tkinter as tk

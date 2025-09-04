@@ -49,3 +49,8 @@ Inside the chosen current range, the code slides a 60 mV window and evaluates th
 - Recommended RCL fitting method: https://github.com/NREL/OSIF
 - The detailed explanation and measurement of RCL can be found in Articles: 10.1149/1945-7111/acee25 and 10.1021/acscatal.4c02932
 
+---
+### How to cite
+Release v1.3.0 is archived on Zenodo:
+https://doi.org/10.5281/zenodo.17054694
+
